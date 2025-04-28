@@ -1,0 +1,15 @@
+Project 3 - CSCE 3550
+
+Overview:
+This project is a secure JWKS server.
+It encrypts private keys, allows user registration, generates JWT tokens, logs authentication requests, and limits /auth requests.
+
+How to Run?
+Set the environment variable:
+$env:NOT_MY_KEY="your-32-character-secret-key"
+
+Start the server:
+python Project3.py
+
+In another terminal, run the tests:
+python test_project3.py
